@@ -1,0 +1,17 @@
+{
+  "name": "playwright-demo",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:debug": "playwright test --debug",
+    "test:codegen": "playwright codegen",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.2.0",
+    "typescript": "^5.2.2"
+  }
+}

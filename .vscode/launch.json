@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Playwright Tests",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceFolder}/node_modules/@playwright/test/cli.js",
+      "args": [
+        "test",
+        "--project=chromium",
+        "--headed"
+      ],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "sourceMaps": true,
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}

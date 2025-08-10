@@ -1,0 +1,14 @@
+{
+    "customerInformation": [
+        {
+            "firstname": "Nathan",
+            "lastname": "Smith",
+            "postalcode": "N5Y 4X9"
+        },
+         {
+            "firstname": "Dane",
+            "lastname": "Goldberg",
+            "postalcode": "ON4X 1A1"
+        }
+    ]
+}
